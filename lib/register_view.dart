@@ -1,4 +1,6 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:kantin/login_view.dart';
 import 'package:kantin/theme.dart';
 import 'package:kantin/widgets/custom_checkbox.dart';
 import 'package:kantin/widgets/primary_button.dart';
@@ -32,17 +34,10 @@ class _RegisterPageState extends State<RegisterPage> {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(
-                    'APP Flutter\nRegister',
-                    style: heading2.copyWith(color: textBlack),
-                  ),
-                  SizedBox(
-                    height: 20,
-                  ),
                   Image.asset(
-                    'assets/images/accent.png',
-                    width: 99,
-                    height: 4,
+                    'assets/images/image1.png',
+                    width: 150,
+                    height: 150,
                   )
                 ],
               ),
@@ -125,11 +120,11 @@ class _RegisterPageState extends State<RegisterPage> {
                     children: [
                       Text(
                         'By creating an account, you agree to our',
-                        style: regular16pt.copyWith(color: textGrey),
+                        style: regular16pt.copyWith(fontSize: 12,color: textGrey),
                       ),
                       Text(
                         'Term & Condition',
-                        style: regular16pt.copyWith(color: primarycolor),
+                        style: regular16pt.copyWith(fontSize: 12,color: primarycolor),
                       )
                     ],
                   )

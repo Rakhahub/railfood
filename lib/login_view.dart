@@ -23,106 +23,71 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
-      body: SafeArea(
+    backgroundColor: textWhiteGrey,
+      body: Container(
         child: Padding(
           padding: EdgeInsets.fromLTRB(24, 40, 24, 0),
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Text(
-                    'APP Flutter\nLogin',
-                    style: heading2.copyWith(color: textBlack),
-                  ),
-                  SizedBox(height: 20,),
                   Image.asset(
-                    'assets/images/accent.png',
-                    width: 99,
-                    height: 4,
+                    'assets/images/image1.png',
+                    width: 150,
+                    height: 150,
                   )
                 ],
               ),
-              SizedBox(height: 48,),
+              SizedBox(height: 30,),
               Form(
                 child: Column(
                   children: [
                     Container(
-                      decoration: BoxDecoration(
-                        color: textWhiteGrey,
-                        borderRadius: BorderRadius.circular(14)
-                      ),
                       child: TextFormField(
                         decoration: InputDecoration(
                           hintText: 'Email',
-                          hintStyle: heading6.copyWith(color: textGrey),
-                          border: OutlineInputBorder(borderSide: BorderSide.none)
+                          labelText: 'Email/No.Handphone',
+                          labelStyle: heading6.copyWith(color: textBlack),
                         ),
                       ),
                     ),
-                    SizedBox(height: 32,),
+                    SizedBox(height: 50,),
                     Container(
                       decoration: BoxDecoration(
-                        color: textWhiteGrey,
-                        borderRadius: BorderRadius.circular(14)
                       ),
                       child: TextFormField(
                         obscureText: !passwordVisible,
                         decoration: InputDecoration(
                           hintText: 'Password',
-                          hintStyle: heading6.copyWith(color: textGrey),
+                          labelText: 'Password',
+                          labelStyle: heading6.copyWith(color: textBlack),
                           suffixIcon: IconButton(
                             color: textGrey,
                             splashRadius: 1,
                             icon: Icon(passwordVisible ? Icons.visibility_outlined : Icons.visibility_off_outlined),
                             onPressed: togglePassword, 
                           ),
-                          border: OutlineInputBorder(
-                            borderSide: BorderSide.none
-                          )
                         ),
                       ),
                     )
                   ],
                 )
               ),
-              SizedBox(height: 32,),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.start,
-                children: [
-                  CustomCheckbox(),
-                  SizedBox(width: 12,),
-                  Text('Remember me', style: regular16pt,)
-                ],
-              ),
-              SizedBox(height: 32,),
+              SizedBox(height: 150,),
               CustomPrimaryButton(
-                buttonColor: primarycolor,
-                textValue: 'Login',
+                buttonColor: colorBlued,
+                textValue: 'Masuk',
                 textColor: Colors.white,
               ),
-              SizedBox(height: 24,),
-              Center(
-                child: Text(
-                  'Or',
-                  style: heading6.copyWith(color: textGrey),
-                ),
-              ),
-              SizedBox(height: 24,),
-              CustomPrimaryButton(
-                buttonColor: colorLight,
-                textValue: 'Login with Google',
-                textColor: textBlack,
-              ),
-              SizedBox(height: 50,),
+              SizedBox(height: 20,),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    'Belum punya akun? ',
-                    style: regular16pt.copyWith(color: textGrey),
+                    'Tidak Memiliki akun? ',
+                    style: regular16pt.copyWith(color: textBlack),
                   ),
                   GestureDetector(
                     onTap: () {
@@ -134,8 +99,8 @@ class _LoginPageState extends State<LoginPage> {
                       );
                     },
                     child: Text(
-                      'Register',
-                      style: regular16pt.copyWith(color: primarycolor),
+                      'Daftar Sekarang',
+                      style: regular16pt.copyWith(color: colorBlued),
                     ),
                   )
                 ],

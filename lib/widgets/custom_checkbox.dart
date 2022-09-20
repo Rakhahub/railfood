@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:belajarflutter/theme.dart';
+import 'package:kantin/theme.dart';
 
 class CustomCheckbox extends StatefulWidget {
   const CustomCheckbox({ Key? key }) : super(key: key);
@@ -21,9 +21,9 @@ class _CustomCheckboxState extends State<CustomCheckbox> {
       },
       child: Container(
         decoration: BoxDecoration(
-          color: isChecked ? primaryBlue : Colors.transparent,
+          color: isChecked ? primarycolor : Colors.transparent,
           borderRadius: BorderRadius.circular(4),
-          border: isChecked ? null : Border.all(color: textGrey, width: 1.5)
+          border: isChecked ? null : Border.all(color: foursecond, width: 1.5)
         ),
         width: 20,
         height: 20,
