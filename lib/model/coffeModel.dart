@@ -19,29 +19,29 @@ class Coffe {
 
 List<Coffe> menu = [
   Coffe(
-    name: "Capuccino",
+    name: "Katsu Chiken",
     type: 'Hot',
-    shortDesc: "Ini capucino",
-    desc: "ini kopi capucino kalo kamu apa",
-    image: "assets/katsu.jpg",
+    shortDesc: "Ini Katsu",
+    desc: "ini Katsu Chiken kalo kamu apa",
+    image: "assets/image/katsu.jpg",
     rate: 5,
     price: 22000),
 
      Coffe(
-    name: "Capuccino",
+    name: "Mie Goreng",
     type: 'Hot',
-    shortDesc: "Ini capucino",
-    desc: "ini kopi capucino kalo kamu apa",
-    image: "assets/katsu.jpg",
-    rate: 5,
-    price: 22000),
+    shortDesc: "Ini Mie Goreng",
+    desc: "ini Mie Goreng kalo kamu apa",
+    image: "assets/image/mie.jpg",
+    rate: 3,
+    price: 25000),
 
      Coffe(
-    name: "Capuccino",
+    name: "Nasi Goreng",
     type: 'Hot',
-    shortDesc: "Ini capucino",
-    desc: "ini kopi capucino kalo kamu apa",
-    image: "assets/katsu.jpg",
+    shortDesc: "Ini Nasi Goreng",
+    desc: "ini Nasi Goreng kalo kamu apa",
+    image: "assets/image/nasigoreng.jpg",
     rate: 5,
     price: 22000),
 
