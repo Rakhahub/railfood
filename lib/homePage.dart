@@ -2,7 +2,10 @@ import 'dart:html';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:kantin/hotCoffePage.dart';
+import 'package:kantin/MakananPage.dart';
+import 'package:kantin/MinumanPage.dart';
+import 'package:kantin/CoffePage.dart';
+import 'package:kantin/DessertPage.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -26,7 +29,7 @@ class HomePage extends StatelessWidget {
                 width: width,
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                    image: AssetImage("assets/images/Rectangle1.png"),
+                    image: AssetImage("assets/images/penumpang.jpg"),
                     fit: BoxFit.cover)), 
                     child: Container(
                       decoration: BoxDecoration(
@@ -52,7 +55,7 @@ class HomePage extends StatelessWidget {
                           fontSize: 20),
                           children: [
                             TextSpan(
-                              text: "Penumpang Layanan KAI ACCES",
+                              text: " Penumpang Layanan KAI ACCES",
                               style: TextStyle(
                                 color: Colors.white,
                                 fontWeight: FontWeight.w500,
@@ -77,7 +80,7 @@ class HomePage extends StatelessWidget {
                     topLeft: Radius.circular(30),
                     topRight: Radius.circular(30))),
                     child: DefaultTabController(
-                      length: 3,
+                      length: 4,
                       child: Column(
                         children: <Widget>[
                           TabBar(
@@ -94,8 +97,11 @@ class HomePage extends StatelessWidget {
                                   child: Text("Aneka Minuman"),
                                 ),
                                 Tab(
-                                  child: Text("Dessert"),
+                                  child: Text("Coffe"),
                                 ),
+                                Tab(
+                                  child: Text("Dessert"),
+                                )
                               ],
                             ),          
                             SizedBox(
@@ -127,7 +133,10 @@ class HomePage extends StatelessWidget {
                               height: height * 0.6,
                               child: TabBarView(
                                 children: <Widget>[
-                                  HotCoffePage(),
+                                  Makanan(),
+                                  Minuman(),
+                                  Coffe(),
+                                  Dessert(),
                                   
 
                                 ],

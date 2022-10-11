@@ -21,8 +21,8 @@ List<Coffe> menu = [
   Coffe(
     name: "Katsu Chiken",
     type: 'Hot',
-    shortDesc: "Ini Katsu",
-    desc: "ini Katsu Chiken kalo kamu apa",
+    shortDesc: "Chicken Katsu merupakan hidangan khas Jepang berupa daging ayam yang dibalur tepung dan digoreng",
+    desc: "Chicken Katsu merupakan hidangan khas Jepang berupa daging ayam yang dibalur tepung dan digoreng",
     image: "assets/image/katsu.jpg",
     rate: 5,
     price: 22000),
@@ -30,17 +30,18 @@ List<Coffe> menu = [
      Coffe(
     name: "Mie Goreng",
     type: 'Hot',
-    shortDesc: "Ini Mie Goreng",
-    desc: "ini Mie Goreng kalo kamu apa",
+    shortDesc: "Hidangan mie yang dimasak dengan digoreng tumis khas Indonesia",
+    desc: "Hidangan mie yang dimasak dengan digoreng tumis khas Indonesia",
     image: "assets/image/mie.jpg",
+    
     rate: 3,
     price: 25000),
 
      Coffe(
     name: "Nasi Goreng",
     type: 'Hot',
-    shortDesc: "Ini Nasi Goreng",
-    desc: "ini Nasi Goreng kalo kamu apa",
+    shortDesc: "Nasi Goreng memiliki cita rasa yang manis dan gurih. Cita rasa ini datang dari terasi atau kecap ikan bersama dengan rasa manis dari kecap",
+    desc: "Nasi Goreng memiliki cita rasa yang manis dan gurih. Cita rasa ini datang dari terasi atau kecap ikan bersama dengan rasa manis dari kecap",
     image: "assets/image/nasigoreng.jpg",
     rate: 5,
     price: 22000),
