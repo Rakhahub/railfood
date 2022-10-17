@@ -63,6 +63,9 @@ flutter:
     - assets/image/mie.jpg
     - assets/image/nasigoreng.jpg
     - assets/images/penumpang.jpg
+    - assets/image/jahe.jpg
+    - assets/image/milkshake.jpg
+    - assets/image/teh.jpg
   
 
   # An image asset can refer to one or more resolution-specific "variants", see

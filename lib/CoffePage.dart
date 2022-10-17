@@ -2,7 +2,7 @@ import 'dart:html';
 
 import 'package:flutter/material.dart';
 import 'package:kantin/menuItemcard.dart';
-import 'package:kantin/model/coffeModel.dart';
+import 'package:kantin/model/makananModel.dart';
 
 class Coffe extends StatelessWidget {
   const Coffe({Key? key}) : super(key: key);
