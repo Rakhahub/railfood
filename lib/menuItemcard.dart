@@ -3,6 +3,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:kantin/model/makananModel.dart';
+import 'package:kantin/page/detailPage.dart';
 
 
 class MenuItemCard extends StatelessWidget {
@@ -20,17 +21,29 @@ class MenuItemCard extends StatelessWidget {
         child: Container(
           child: Row(
             children: <Widget>[
-              AspectRatio(
-                aspectRatio: 1 / 1,
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(10),
-                  child: Image.asset(
-                    menu[index].image,
-                    fit: BoxFit.cover,
-                  )
-                ),
-              ),
-              SizedBox(
+              GestureDetector(
+                onTap: () {
+                  Navigator.push(
+                    context, 
+                    MaterialPageRoute(
+                      builder: (context)=> DetailPage(
+                        index: index,
+                      )));
+                },
+              
+              child: Row(
+                children: <Widget>[
+                  AspectRatio(
+                    aspectRatio: 1 / 1,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(10),
+                      child: Image.asset(
+                        menu[index].image,
+                        fit: BoxFit.cover,
+                      )
+                    ),
+                  ),            
+                  SizedBox(
                 width: 20,
               ),
               AspectRatio(
@@ -61,6 +74,10 @@ class MenuItemCard extends StatelessWidget {
                   ],
                 )
               ),
+                ],
+              ),
+              ),
+  
               IconButton(
                 icon: Icon(Icons.add_circle, color: Colors.brown[600], size: 36,), onPressed: () {  },
               )
