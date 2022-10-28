@@ -1,7 +1,7 @@
 import 'dart:html';
 
 import 'package:flutter/material.dart';
-import 'package:kantin/menuItemcard.dart';
+import 'package:kantin/minumanItemcard.dart';
 import 'package:kantin/model/minumanModel.dart';
 
 class Minuman extends StatelessWidget {
@@ -13,7 +13,7 @@ class Minuman extends StatelessWidget {
       child: ListView.builder(
         itemCount: menu1.length,
         itemBuilder: (context, int key){
-          return MenuItemCard(index: key);
+          return MinumanItemCard(index: key);
         },
       ),
     );

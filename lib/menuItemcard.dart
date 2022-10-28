@@ -4,6 +4,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:kantin/model/makananModel.dart';
 import 'package:kantin/page/detailPage.dart';
+import 'package:kantin/model/minumanModel.dart';
 
 
 class MenuItemCard extends StatelessWidget {
