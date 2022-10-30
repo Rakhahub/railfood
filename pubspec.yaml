@@ -66,6 +66,10 @@ flutter:
     - assets/image/jahe.jpg
     - assets/image/milkshake.jpg
     - assets/image/teh.jpg
+    - assets/image/dalgona.jpg
+    - assets/image/espreso.jpg
+    - assets/image/kukiscoffe.jpg
+    - assets/image/toraja.jpg
   
 
   # An image asset can refer to one or more resolution-specific "variants", see
