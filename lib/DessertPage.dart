@@ -1,8 +1,8 @@
 import 'dart:html';
 
 import 'package:flutter/material.dart';
-import 'package:kantin/menuItemcard.dart';
-import 'package:kantin/model/makananModel.dart';
+import 'package:kantin/dessertItemcard.dart';
+import 'package:kantin/model/dessertModel.dart';
 
 class Dessert extends StatelessWidget {
   const Dessert({Key? key}) : super(key: key);
@@ -11,9 +11,9 @@ class Dessert extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: ListView.builder(
-        itemCount: menu.length,
+        itemCount: menu4.length,
         itemBuilder: (context, int key){
-          return MenuItemCard(index: key);
+          return dessertItemCard(index: key);
         },
       ),
     );

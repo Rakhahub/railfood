@@ -70,6 +70,10 @@ flutter:
     - assets/image/espreso.jpg
     - assets/image/kukiscoffe.jpg
     - assets/image/toraja.jpg
+    - assets/image/cupcake.jpg
+    - assets/image/donat.jpg
+    - assets/image/kukis.jpg
+    - assets/image/macaron.jpg
   
 
   # An image asset can refer to one or more resolution-specific "variants", see
