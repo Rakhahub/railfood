@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kantin/home.dart';
+import 'package:kantin/homePage.dart';
 
 void main() => runApp(MyApp());
 
@@ -10,7 +10,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Homepage(),
+      title: 'Menu Makanan',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: HomePage(),
     );
+    
   }
 }

@@ -58,8 +58,22 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-      - assets/avatar.jpg
+  assets:
+    - assets/image/katsu.jpg
+    - assets/image/mie.jpg
+    - assets/image/nasigoreng.jpg
+    - assets/images/penumpang.jpg
+    - assets/image/jahe.jpg
+    - assets/image/milkshake.jpg
+    - assets/image/teh.jpg
+    - assets/image/dalgona.jpg
+    - assets/image/espreso.jpg
+    - assets/image/kukiscoffe.jpg
+    - assets/image/toraja.jpg
+    - assets/image/cupcake.jpg
+    - assets/image/donat.jpg
+    - assets/image/kukis.jpg
+    - assets/image/macaron.jpg
   
 
   # An image asset can refer to one or more resolution-specific "variants", see
