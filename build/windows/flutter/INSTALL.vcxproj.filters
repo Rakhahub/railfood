@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Rizki project\railfood\build\windows\CMakeFiles\d551b3071750a6fc3f574a9568a39664\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{713C2ACE-9DF0-33DB-97DB-70CF23C8B26C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

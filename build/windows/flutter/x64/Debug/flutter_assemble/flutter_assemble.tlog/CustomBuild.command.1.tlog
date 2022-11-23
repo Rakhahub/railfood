@@ -1,0 +1,28 @@
+^C:\RIZKI PROJECT\RAILFOOD\BUILD\WINDOWS\CMAKEFILES\469EC7A4CCC201C7AE312CA3B85749DA\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env "FLUTTER_ROOT=C:\Users\RPLSKENSA\Pictures\Saved Pictures\flutter_windows_3.0.5-stable\flutter" "PROJECT_DIR=C:\Rizki project\railfood" "FLUTTER_ROOT=C:\Users\RPLSKENSA\Pictures\Saved Pictures\flutter_windows_3.0.5-stable\flutter" "FLUTTER_EPHEMERAL_DIR=C:\Rizki project\railfood\windows\flutter\ephemeral" "PROJECT_DIR=C:\Rizki project\railfood" "FLUTTER_TARGET=C:\Rizki project\railfood\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=C:\Rizki project\railfood\.dart_tool\package_config.json" "C:/Users/RPLSKENSA/Pictures/Saved Pictures/flutter_windows_3.0.5-stable/flutter/packages/flutter_tools/bin/tool_backend.bat" windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\RIZKI PROJECT\RAILFOOD\BUILD\WINDOWS\CMAKEFILES\D551B3071750A6FC3F574A9568A39664\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\RIZKI PROJECT\RAILFOOD\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Rizki project/railfood/windows" "-BC:/Rizki project/railfood/build/windows" --check-stamp-file "C:/Rizki project/railfood/build/windows/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

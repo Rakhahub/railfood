@@ -1,0 +1,10 @@
+^C:\RIZKI PROJECT\RAILFOOD\BUILD\WINDOWS\CMAKEFILES\99FDFC196E5AB9572EA38921736B940C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Rizki project/railfood/windows" "-BC:/Rizki project/railfood/build/windows" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Rizki project/railfood/build/windows/kantin.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

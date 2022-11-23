@@ -1,0 +1,11 @@
+C:/Rizki project/railfood/build/windows/runner/Debug/data/icudtl.dat
+C:/Rizki project/railfood/build/windows/runner/Debug/flutter_windows.dll
+C:/Rizki project/railfood/build/windows/runner/Debug/data/flutter_assets/AssetManifest.json
+C:/Rizki project/railfood/build/windows/runner/Debug/data/flutter_assets/assets/image/avatar.jpg
+C:/Rizki project/railfood/build/windows/runner/Debug/data/flutter_assets/assets/image/logo.png
+C:/Rizki project/railfood/build/windows/runner/Debug/data/flutter_assets/FontManifest.json
+C:/Rizki project/railfood/build/windows/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+C:/Rizki project/railfood/build/windows/runner/Debug/data/flutter_assets/kernel_blob.bin
+C:/Rizki project/railfood/build/windows/runner/Debug/data/flutter_assets/NOTICES
+C:/Rizki project/railfood/build/windows/runner/Debug/data/flutter_assets/NOTICES.Z
+C:/Rizki project/railfood/build/windows/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
